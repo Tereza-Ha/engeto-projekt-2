@@ -1,0 +1,6 @@
+.main-image {
+  background: url("../img/background.webp");
+  min-height: calc(100vh - 70px);
+  background-size: cover;
+  background-position: center;
+}

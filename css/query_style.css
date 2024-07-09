@@ -1,0 +1,49 @@
+@media (max-width: 756px) {
+  .header {
+    position: relative;
+  }
+
+  header nav {
+    display: none;
+    position: absolute;
+    top: 70px;
+    background-color: #15304c;
+    width: 100%;
+  }
+
+  .menu-icon {
+    display: block;
+    color: white;
+    font-size: 23px;
+  }
+
+  nav li {
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px 0px 10px 20px;
+  }
+
+  .about-us {
+    padding: 90px 90px 0px 90px;
+  }
+
+  .gallery {
+    flex-direction: column;
+  }
+
+  .contact {
+    padding: 50px 90px 50px 90px;
+    color: aliceblue;
+  }
+
+  .form-group input {
+    width: 70%;
+  }
+}
+
+@media (min-width: 756px) {
+  header nav {
+    display: block !important;
+  }
+}
